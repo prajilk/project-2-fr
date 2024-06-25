@@ -7,15 +7,15 @@ const Section2 = () => {
     <div className="container flex flex-col-reverse py-20 lg:flex-col lg:py-40">
       <div className="grid gap-5 text-white lg:grid-cols-2 lg:gap-0">
         <div className="order-2 space-y-10 lg:order-1">
-          <h1 className="text-neon mx-auto max-w-lg text-center text-4xl font-bold lg:mx-0 lg:max-w-max lg:text-left lg:text-5xl">
+          <h1 className="mx-auto max-w-lg text-center text-4xl font-bold text-neon lg:mx-0 lg:max-w-max lg:text-left lg:text-5xl">
             Parce que rien ne vaut un transport personnalisé
           </h1>
           <p className="mx-auto max-w-lg text-center lg:mx-0 lg:max-w-max lg:text-left">
             Nous offrons un service de transport sur mesure, adapté à vos
-            besoins spécifiques. Profitez de l'élégance, du confort et de la
-            ponctualité avec nos chauffeurs expérimentés, dédiés à rendre chaque
-            trajet unique et agréable. Votre satisfaction est notre priorité,
-            car rien ne vaut un transport personnalisé.
+            besoins spécifiques. Profitez de l&apos;élégance, du confort et de
+            la ponctualité avec nos chauffeurs expérimentés, dédiés à rendre
+            chaque trajet unique et agréable. Votre satisfaction est notre
+            priorité, car rien ne vaut un transport personnalisé.
           </p>
           <Button
             endIcon={<ArrowRight className="group-hover:fill-secondary" />}
