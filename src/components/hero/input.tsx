@@ -39,19 +39,19 @@ const Input = ({ placeholder, icon, route, setRoute }: InputProps) => {
 
   return (
     <div
-      className="relative flex items-center rounded-full bg-secondary px-7 text-white/80"
+      className="relative flex items-center rounded-full bg-secondary px-5 text-white/80 md:px-7"
       tabIndex={0}
       onFocus={() => setOpen(true)}
       onBlur={() => setOpen(false)}
     >
-      <div className="flex flex-1 items-center gap-5">
+      <div className="flex flex-1 items-center gap-3 md:gap-5">
         <i className="inline-block size-2 rounded-full bg-primary"></i>
         <input
           type="text"
           placeholder={placeholder}
           onChange={handleFilterAddress}
           value={route}
-          className="flex-1 bg-transparent py-4 outline-none"
+          className="w-full flex-1 bg-transparent py-4 outline-none placeholder:text-sm md:placeholder:text-base"
         />
       </div>
       {icon}
@@ -72,7 +72,7 @@ const Input = ({ placeholder, icon, route, setRoute }: InputProps) => {
             filterAddresses.map((address, i) => (
               <li
                 key={i}
-                className="w-full cursor-pointer px-4 py-2.5 hover:bg-black/50"
+                className="w-full cursor-pointer px-4 py-2.5 text-sm hover:bg-black/50 md:text-base"
                 onClick={() => handleSetRoute(address)}
               >
                 {address}

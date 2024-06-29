@@ -15,12 +15,6 @@ const Hero = () => {
             Entrez votre trajet, et en route !
           </span>
           <RouteForm />
-          <Button
-            className="mx-auto w-fit border-none lg:m-0"
-            endIcon={<ArrowRight className="group-hover:fill-secondary" />}
-          >
-            En route
-          </Button>
         </div>
         <div className="relative order-1 aspect-square w-full max-w-md place-self-center lg:h-full lg:place-self-end">
           <Image
