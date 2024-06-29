@@ -51,7 +51,7 @@ const Input = ({ placeholder, icon, route, setRoute }: InputProps) => {
           placeholder={placeholder}
           onChange={handleFilterAddress}
           value={route}
-          className="w-full flex-1 bg-transparent py-4 outline-none placeholder:text-sm md:placeholder:text-base"
+          className="w-full flex-1 bg-transparent py-4 text-sm outline-none placeholder:text-sm md:text-base md:placeholder:text-base"
         />
       </div>
       {icon}
